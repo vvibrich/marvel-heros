@@ -1,6 +1,6 @@
 {
   "name": "marvel-heros",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Esse é um projeto para o processo seletivo de Assistente de Desenvolvimento na KingHost o qual consisitia em criar uma aplicação que exibisse 2 heróis favoritos e a partir deles listar 2 histórias que cada um conste, para saber quais são esses heróis e quais histórias listei saiba como instalar o projeto abaixo",
   "main": "server.js",
   "engines": {
