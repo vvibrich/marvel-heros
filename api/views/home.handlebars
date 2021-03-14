@@ -1,0 +1,25 @@
+<h1 style="text-align: center; color:black;"><img src="https://fontmeme.com/permalink/210314/a0cb002c3f2a091a7b67efa3d144b275.png" border="0"></a></h1>
+
+<div class="cards">
+    {{#each heros}}
+    <div class="center">
+    <div class="property-card">
+        <a href="/{{name}}">
+        <div class="property-image" style="background-image:url('{{image}}.jpg') ;">
+            <div class="property-image-title">
+            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+            </div>
+        </div></a>
+        <div class="property-description">
+        <h5> {{name}} </h5>
+        <p>{{description}}</p>
+        </div>
+        <a href="#">
+        {{!-- <div class="property-social-icons">
+            <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+        </div> --}}
+        </a>
+    </div>
+    </div>
+    {{/each}}
+</div>
