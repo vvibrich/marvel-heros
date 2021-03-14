@@ -30,7 +30,7 @@ module.exports = {
          {
          title: response.data.data.results[1].title, 
          description: response.data.data.results[1].description,
-         image: response.data.data.results[1].thumbnail.path+'.jpg'
+         image: response.data.data.results[0].thumbnail.path+'.jpg'
         }]
       }else if(hero == 'Deadpool'){
         const response = await axios.get("https://gateway.marvel.com/v1/public/characters/1009268/comics?ts=1&dateRange=2014-01-01%2C2015-01-02&titleStartsWith=Deadpool&orderBy=title&limit=2&apikey=7b73e6dd24f6573f6108ac83a8d34ae9&hash=d0802fa007ef6725f00cee6ea360acd4");
@@ -42,7 +42,7 @@ module.exports = {
          {
          title: response.data.data.results[1].title, 
          description: response.data.data.results[1].description,
-         image: response.data.data.results[1].thumbnail.path+'.jpg'
+         image: response.data.data.results[0].thumbnail.path+'.jpg'
         }]
       }
     }
